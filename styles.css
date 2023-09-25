@@ -1,3 +1,13 @@
 body {
   font-family: verdana;
 }
+
+main{
+  display: flex;
+}
+main > * {
+  flex: 1;
+}
+.owner {
+  border: solid 2px dodgerblue;
+}
